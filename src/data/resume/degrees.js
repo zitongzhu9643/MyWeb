@@ -1,15 +1,21 @@
 const degrees = [
   {
-    school: 'Stanford University',
-    degree: 'M.S. Computational and Mathematical Engineering',
-    link: 'https://stanford.edu',
-    year: 2016,
+    school: 'University of Auckland',
+    degree: 'Master of Information Technology',
+    link: 'https://www.auckland.ac.nz',
+    year: 2025,
   },
   {
-    school: 'University at Buffalo',
-    degree: 'B.S. Electrical Engineering, Computer Engineering',
-    link: 'https://buffalo.edu',
-    year: 2012,
+    school: 'University of Pennsylvania',
+    degree: 'M.S.E in Computer and Information Science',
+    link: 'https://www.cis.upenn.edu/graduate/program-offerings/mse-in-cis/',
+    year: 2021,
+  },
+  {
+    school: 'Muhlenberg College',
+    degree: 'B.S. in Computer Science, Mathematics',
+    link: 'https://www.muhlenberg.edu/',
+    year: 2019,
   },
 ];
 
