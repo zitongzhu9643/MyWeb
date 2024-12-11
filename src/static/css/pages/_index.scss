@@ -1,0 +1,6 @@
+.poster-image {
+    max-width: 100%; /* 确保图像宽度不超过父容器宽度 */
+    height: auto; /* 自动调整高度，保持图像比例 */
+    max-height: 100vh; /* 可选：限制图像高度不超过视窗高度 */
+    object-fit: contain; /* 确保图像内容完整显示，不裁剪 */
+  }

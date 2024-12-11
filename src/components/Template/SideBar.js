@@ -12,9 +12,9 @@ const SideBar = () => (
         <img src={`${PUBLIC_URL}/images/me.jpg`} alt="" />
       </Link>
       <header>
-        <h2>Michael D&apos;Angelo</h2>
+        <h2>Ziwei(Ivy) Niu</h2>
         <p>
-          <a href="mailto:michael@mldangelo.com">michael@mldangelo.com</a>
+          <a href="mailto:ivyzwniu@gmail.com">ivyzwniu@gmail.com</a>
         </p>
       </header>
     </section>
@@ -22,13 +22,11 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>
-        Hi, I&apos;m Michael. I am a{' '}
-        <a href="https://icme.stanford.edu/">Stanford ICME</a> graduate, YC
-        alumnus, and the co-founder and CTO of{' '}
-        <a href="https://promptfoo.dev">Promptfoo</a>. Previously, I
-        was VP of Engineering at <a href="https://usesmileid.com">SmileID</a>,
-        co-founder and CTO of <a href="https://arthena.com">Arthena</a>, and
-        co-founded <a href="https://matroid.com">Matroid</a>.
+        An INFP video editor with 3+ years
+        of experience and a master’s in Film and Media,
+        blending creativity, storytelling,
+        and a passion for nature into impactful video
+        production and collaborative innovation.
       </p>
       <ul className="actions">
         <li>
@@ -47,9 +45,9 @@ const SideBar = () => (
 
     <section id="footer">
       <ContactIcons />
-      <p className="copyright">
-        &copy; Michael D&apos;Angelo <Link to="/">mldangelo.com</Link>.
-      </p>
+      {/* <p className="copyright">
+        &copy; Zitong Zhu <Link to="/">mldangelo.com</Link>.
+      </p> */}
     </section>
   </section>
 );

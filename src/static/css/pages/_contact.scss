@@ -31,3 +31,23 @@
   border: 0;
   text-align: right;
 }
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contact-item {
+  display: flex;
+  align-items: center;
+}
+
+.contact-key {
+  min-width: 120px; /* 固定最小宽度，确保冒号在同一位置对齐 */
+  font-weight: bold;
+}
+
+.contact-value {
+  margin-left: 0.5rem; /* 为 value 添加左侧间距，与 key 分开 */
+}

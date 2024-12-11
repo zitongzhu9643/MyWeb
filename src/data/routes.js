@@ -1,7 +1,7 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Ziwei Niu',
     path: '/',
   },
   {
@@ -13,13 +13,13 @@ const routes = [
     path: '/resume',
   },
   {
-    label: 'Projects',
+    label: 'Protfolio',
     path: '/projects',
   },
-  {
-    label: 'Stats',
-    path: '/stats',
-  },
+  // {
+  //   label: 'Stats',
+  //   path: '/stats',
+  // },
   {
     label: 'Contact',
     path: '/contact',
